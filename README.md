@@ -16,3 +16,10 @@ The Nmap scan for the IP address 10.10.99.81 shows that the host is up with a la
 ![image](https://github.com/user-attachments/assets/372daf4c-b50d-41e0-a797-8c5b7ea11263)
 
 ### I decided to run gobuster
+
+[Download the wordlist here](https://github.com/digination/dirbuster-ng/blob/master/wordlists/big.txt)
+
+```bash
+gobuster dir -u http://<ip-address>:85 -w /home/user/wordlist/dirb/big.txt -x php,html,aspx,jsp
+```
+

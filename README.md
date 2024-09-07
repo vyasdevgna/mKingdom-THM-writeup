@@ -24,7 +24,7 @@ gobuster dir -u http://<ip-address>:85 -w /home/user/wordlist/dirb/big.txt -x ph
 ```
 ![image](https://github.com/user-attachments/assets/27a45576-b71c-41db-8b0a-0e15e5ac6d05)
 
-### I accessed the /app through http://10.10.99.81:85/app/ and clicked on jump button which landed on the following page
+### I accessed the /app through http://<ip-address>/app/ and clicked on jump button which landed on the following page
 
 ![image](https://github.com/user-attachments/assets/b5415832-7751-4436-ab28-3a73169f1b62)
 

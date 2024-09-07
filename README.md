@@ -40,7 +40,15 @@ gobuster dir -u http://<ip-address>:85 -w /home/user/wordlist/dirb/big.txt -x ph
 
 ![image](https://github.com/user-attachments/assets/fb2af502-a03a-474d-b9a3-326c60769fda)
 
+### Admin panel 
 
+![image](https://github.com/user-attachments/assets/22a1f533-3df8-4a8c-9c68-bae1ef1fd7a4)
+
+### This webapp uses Concrete CMS 8.5.2
+
+![image](https://github.com/user-attachments/assets/bc7272bb-4183-4289-867e-cfb683b8391a)
+
+[Get Wappalyzer to detect the technology used](https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg)
 
 
 

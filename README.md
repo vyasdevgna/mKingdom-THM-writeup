@@ -13,13 +13,16 @@ The Nmap scan for the IP address 10.10.99.81 shows that the host is up with a la
 
 ## Access the webpage on <ip-address>:85
 
-![image](https://github.com/user-attachments/assets/372daf4c-b50d-41e0-a797-8c5b7ea11263)
+![image](https://github.com/user-attachments/assets/76b1b795-ba4f-43ff-94ad-cec3ca077fab)
 
-### I decided to run gobuster
+## I decided to run gobuster
 
 [Download the wordlist here](https://github.com/digination/dirbuster-ng/blob/master/wordlists/big.txt)
 
 ```bash
 gobuster dir -u http://<ip-address>:85 -w /home/user/wordlist/dirb/big.txt -x php,html,aspx,jsp
 ```
+![image](https://github.com/user-attachments/assets/27a45576-b71c-41db-8b0a-0e15e5ac6d05)
+
+
 
